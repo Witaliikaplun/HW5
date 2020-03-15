@@ -12,7 +12,7 @@ public class Road extends Stage {
             System.out.println(c.getName() + " закончил этап: " + description);
             if (MainClass.fin.getCount() == MainClass.CARS_COUNT)
                 if (length == MainClass.length2) {
-                    System.out.println(c.getName() + " WIN");
+                    System.out.println(c.getName() + " WIN!");
                 }
         } catch (InterruptedException e) {
             e.printStackTrace();

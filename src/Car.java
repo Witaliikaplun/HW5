@@ -48,7 +48,7 @@ public class Car implements Runnable {
 
         for (int i = 0; i < race.getStages().size(); i++) {
             race.getStages().get(i).go(this);
-            if(i == CARS_COUNT / 2){//если завершающий этап
+            if(i == 2){//если завершающий этап
                 MainClass.fin.countDown();
                 try {
                     MainClass.fin.await();
